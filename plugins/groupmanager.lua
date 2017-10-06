@@ -3333,7 +3333,7 @@ local hash = "gp_lang:"..arg.chat_id
 local lang = redis:get(hash)
 		administration = load_data(_config.moderation.data)
     if administration[arg.chat_id]['setwelcome'] then
-     welcome = administration[arg.chat_id]['setwelcome']
+     welcome 
       else
      if not lang then
      welcome = "*Welcome Dude*"
